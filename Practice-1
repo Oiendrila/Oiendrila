@@ -1,0 +1,7 @@
+## Print a message to check if a person can attend Mr.Obama's party, based on the age.
+
+age = int(input("Enter your age: "))
+if age>60 or age<18:
+    print("Mr. Obama welcomes you to his party")
+else:
+    print("Oops! You cannot attend Mr. Obama's party at this age.")
